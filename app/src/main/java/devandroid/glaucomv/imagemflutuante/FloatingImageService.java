@@ -25,7 +25,7 @@ public class FloatingImageService extends Service {
         windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
 
         floatingImage = new ImageView(this);
-        floatingImage.setImageResource(R.drawable.rectangle_white);
+        floatingImage.setImageResource(R.drawable.retangulo);
         floatingImage.setBackgroundColor(Color.WHITE);
         floatingImage.setVisibility(View.VISIBLE);
 
