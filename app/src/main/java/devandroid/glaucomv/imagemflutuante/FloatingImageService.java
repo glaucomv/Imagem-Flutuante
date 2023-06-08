@@ -42,13 +42,6 @@ public class FloatingImageService extends Service {
         //layoutParams.x = 210;  // Posição X da margem esquerda
         layoutParams.y = 115;  // Posição Y do topo
 
-        floatingImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Lógica de clique aqui
-            }
-        });
-
         floatingImage.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
